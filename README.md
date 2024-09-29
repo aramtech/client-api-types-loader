@@ -1,1 +1,1 @@
-# client-api-types-loader
+# client-api-types
