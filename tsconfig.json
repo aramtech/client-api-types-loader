@@ -1,0 +1,17 @@
+{
+    "extends": "@tsconfig/node21/tsconfig.json",
+    "compilerOptions": {
+        "allowJs": true,
+        "resolveJsonModule": true,
+        "checkJs": false,
+        "outDir": "dist",
+        "module": "NodeNext",
+        "moduleResolution": "NodeNext",
+        "noImplicitAny": false,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true,
+        "declaration": true, 
+        "types": ["bun-types"]
+    },
+    "exclude": ["node_modules"]
+}
